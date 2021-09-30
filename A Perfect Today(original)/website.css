@@ -1,0 +1,202 @@
+
+
+
+
+body {
+    
+    background: url('web/bg7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+*{font-family: 'Handlee', cursive;}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-style: solid;
+    
+}
+.box {
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    
+    background: rgba(255,255,255,0.85);
+
+}
+.box2 {
+    background: url('web/bg.jpg') no-repeat center center fixed;
+}
+.brand {
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 3.5em;
+        font-weight: 700;
+        line-height: normal;
+       
+        color: #fff;
+    }
+.address-bar{
+       
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        font-size: 1.35em;
+        font-weight: 400;
+        line-height: normal;
+        color: #fff;
+    }
+
+.brand-name{
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        font-size: 1.65em;
+        font-weight: 700;
+        line-height: normal;
+        color: black;
+}
+
+.address-name{
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        font-size: 2em;
+        font-weight: 700;
+        line-height: normal;
+        color: grey;
+}
+
+
+.intro-text {
+    text-transform: capitalize;
+    font-size: 1.65em;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 1px;
+    color:black;
+}
+
+.topic{
+        text-align: center;
+        text-transform: none;
+        text-shadow: 1px 1px 1px black;
+        font-size: 1.45em;
+        font-weight: 700;
+        line-height: normal;
+        color: grey;
+}
+
+.title {
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 2.25em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+.heading{
+        text-align: center;
+        text-transform: lowercase;
+        text-shadow: 1px 1px 1px black;
+        font-size: 1.65em;
+        font-weight: 700;
+        line-height: normal;
+        color: grey;
+}
+
+.welcome{
+        text-align: center;
+        text-transform: lowercase;
+        text-shadow: .7px .7px .7px black;
+        font-size: 1.25em;
+        font-weight: 700;
+        line-height: normal;
+        color: grey;
+}
+.center{
+    text-transform: lowercase;
+    text-align: center;
+    font-size:1.25em;
+}
+.img-full {
+    width: 100%;
+    }
+.full{
+    width: 65%;
+}
+.pic{width: 40%;}
+.img-border {
+    float: none;
+    margin:10px 0px;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: left;
+    margin-right: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.75);
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:475px){
+    .brand{font-size:2.25em;}
+    .address-bar{font-size:1em;}
+    .brand-name{font-size:1.215em;}
+    .address-name{font-size:1.515em;}
+    .intro-text{font-size:1.225em;}
+    .topic{font-size:1.225em;}
+    .title{font-size: 1.75em;}
+    .heading{font-size: 1.25em;}
+    .center{font-size:1.105em;}
+    p{font-size:1em;}
+    .img-full,.full,.pic{width:100%;}
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
