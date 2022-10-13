@@ -80,7 +80,7 @@
         <a class="nav-link" href="about.php"><strong><i class="fa fa-id-badge"></i> About</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="blog.php"><strong><i class="fa fa-newspaper-o"></i>Study Materials</strong></a>
+        <a class="nav-link" href="blog.php"><strong><i class="fa fa-newspaper-o"></i> Study Materials</strong></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.php"><strong><i class="fa fa-fw fa-envelope"></i> Contact</strong></a>
